@@ -46,6 +46,19 @@ ul {
   color: #404bbf;
   text-decoration: underline;
 }
+
+.header-div {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.ul-list {
+  display: flex;
+}
+
 .header-link-address {
   text-decoration: none;
   font-family: "Roboto";
@@ -63,11 +76,6 @@ ul {
 /* saction 1 */
 
 .title-all {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-
   color: var(--brand-color);
 }
 
@@ -84,11 +92,10 @@ ul {
 .main-title {
   font-size: 56px;
   line-height: 60px;
-
   color: #ffffff;
 
   width: 511px;
-  margin: 0 auto 48px;
+  padding: 188px 472px 48px 472px;
 }
 
 .button-main-title {
@@ -182,6 +189,8 @@ ul {
   font-size: 18px;
   line-height: 21px;
 
+  text-transform: uppercase;
+
   color: #f4f4fd;
 }
 
@@ -190,6 +199,8 @@ ul {
   line-height: 24px;
 
   color: #e7e9fc;
+
+  width: 260px;
 }
 
 /* PORTFOLIO */
